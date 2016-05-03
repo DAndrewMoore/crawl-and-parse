@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="public" additionalparam="-link https://docs.oracle.com/javase/8/docs/api/ com.dam_industries.dbaccess " author="true" classpath="itext-5.5.9/itextpdf-5.5.9.jar;mysql-connector-java-5.1.38/mysql-connector-java-5.1.38-bin.jar;jsoup-1.8.3.jar" destdir="doc" nodeprecated="false" nodeprecatedlist="false" noindex="true" nonavbar="false" notree="true" packagenames="com.dam_industries.dbaccess" source="1.8" sourcefiles="src/com/dam_industries/docparser/package-info.java" sourcepath="src" splitindex="false" use="true" version="true"/>
+    </target>
+</project>
